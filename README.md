@@ -1,6 +1,14 @@
 # Fake-News-Classifier
 
-Project for our Msc. Text Mining class at HEC Montreal, supervised by Gilles Caporossi.
+One of the things the Presidential Election Campaign of 2016 may be remembered for is the proliferation of fake news stories. Viral news hoaxes have been around for many years, but 2016 seems to be the year they exploded into the consciousness of the American public. Evaluating information has never been more important.
 
-Creating a Fake News Classifier and exploring various aspects of NLP (LDA, NMF, Cosine Similarities, comparing hand engineered features vs TF-IDF 
-vectorizer..) and then comparing Naive Bayes model and SVM with a CNN with Glove 6B embeddings.
+Our task was to classify whether a news was fake or real. The emphasis has been placed on the application of traditional techniques as Bag-of-words, Stemming or TF-IDF followed by a comparison with a CNN using FastText embeddings. We’ve also implemented topic modelling and cosine similarity to better understand our results.
+
+## Scope of the project
+Text data preprocessing (extract the words, lowercase, remove stopwords, stemming)
+Application of TF-IDF (Term Frequency – Inverse Document Frequency)
+Use predictive models suited to text classification (Naive Bayes, SVM)
+Extract words most prone to discriminate between Fake and Real news through Logic Regression coefficients
+Use NMF and LDA to see if certain specific topics would emerge and be more prevalent in Real vs Fake news
+Compare the results of ML algorithms with a DL approach, specificaly a CNN model
+
