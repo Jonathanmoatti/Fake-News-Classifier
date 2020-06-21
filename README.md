@@ -5,10 +5,10 @@ One of the things the Presidential Election Campaign of 2016 may be remembered f
 Our task was to classify whether a news was fake or real. The emphasis has been placed on the application of traditional techniques as Bag-of-words, Stemming or TF-IDF followed by a comparison with a CNN using FastText embeddings. We’ve also implemented topic modelling and cosine similarity to better understand our results.
 
 ## Scope of the project
-Text data preprocessing (extract the words, lowercase, remove stopwords, stemming)
-Application of TF-IDF (Term Frequency – Inverse Document Frequency)
-Use predictive models suited to text classification (Naive Bayes, SVM)
-Extract words most prone to discriminate between Fake and Real news through Logic Regression coefficients
-Use NMF and LDA to see if certain specific topics would emerge and be more prevalent in Real vs Fake news
-Compare the results of ML algorithms with a DL approach, specificaly a CNN model
+- Text data preprocessing (extract the words, lowercase, remove stopwords, stemming)
+- Application of TF-IDF (Term Frequency – Inverse Document Frequency)
+- Use predictive models suited to text classification (Naive Bayes, SVM)
+- Extract words most prone to discriminate between Fake and Real news through Logic Regression coefficients
+- Use NMF and LDA to see if certain specific topics would emerge and be more prevalent in Real vs Fake news
+- Compare the results of ML algorithms with a DL approach, specificaly a CNN model
 
